@@ -18,7 +18,6 @@ If replication is not selected, it takes in:
 - random
 
 
-
 # Implementation detail
 Below are some examples showing how to run the <code>main.py
   
