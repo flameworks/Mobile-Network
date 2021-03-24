@@ -20,11 +20,14 @@ If replication is not selected, it takes in:
 
 
 # Implementation detail
-Below are some examples showing how to run the <code>main.py</code>
+Below are some examples showing how to run the <code>main.py
+  
+<code>$ python main.py </code> 
 
-<code>$ python main.py 
-Do you want to do replication? Y/N: N
-How many cell towers are there?: 20
-How many channels are there per cell?: 10
-How many channels do you want to reserve?: 4
-</code>
+<code>Do you want to do replication? Y/N: N </code> 
+
+<code>How many cell towers are there?: 20 </code> 
+
+<code>How many channels are there per cell?: 10 </code> 
+
+<code>How many channels do you want to reserve?: 4 </code> 
