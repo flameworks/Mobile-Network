@@ -18,7 +18,7 @@ def mainFunction(HO_reserve, stationNum = 20, channelLimit = 10):
         arrivTime += np.random.exponential(1.35)            # cumulative, in seconds @@@ 1.35
         cellNum = random.randint(0, stationNum-1)           # cell num 0 to 19
         callDuration = np.random.exponential(119)           # In seconds   
-        carSpeed = np.random.normal(90, 8.14)/60/60         # from km/hr to km/sec
+        carSpeed = np.random.triangular(70, 90.1, 110)/60/60# from km/hr to km/sec
         startPos = random.random() * 2                      # Uniform between 2km diameter
         workspace.add( (arrivTime, 0, cellNum, callDuration, carSpeed, startPos, None, uniqID) )
         uniqID += 1
